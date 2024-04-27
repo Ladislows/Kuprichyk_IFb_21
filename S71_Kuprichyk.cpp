@@ -11,15 +11,15 @@ public:
         Number = num;
         Balance = bal;
     }
-    void Put(float m) {
-        Balance += m;
+    void Put(float v) {
+        Balance += v;
     }
-    void Take(float m) {
-        if (m <= Balance) {
-            Balance -= m;
+    void Take(float v) {
+        if (v <= Balance) {
+            Balance -=v;
         }
         else {
-            cout << "Не достаточно средств" << endl; //проверка
+            cout << "Недостаточно средств" << endl; //проверка
         }
     }
 };
