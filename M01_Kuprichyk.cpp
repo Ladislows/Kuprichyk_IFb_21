@@ -1,10 +1,10 @@
 #include <iostream> 
 
 int main(){
-    unsigned int n;
+ int n;
     std::cin>>n;
-    for(unsigned int i=1; i<=n;++i){
-        for(unsigned int j=1;j<=n;++j)
+    for( int i=1; i<=n;++i){
+        for( int j=1;j<=n;++j)
             std::cout<<i*j<<"\t"; // Табуляция
         std::cout<<std::endl;
     }
