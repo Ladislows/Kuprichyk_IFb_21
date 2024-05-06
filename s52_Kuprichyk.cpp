@@ -2,14 +2,14 @@
 
 using namespace std;
 
-int print (int a){ return a;}
-float print (float a){return a;}
-char print (char a){return a;}
-int print (int a, int b){ return a+b;}
+void print (int a){cout<< a;};
+void print (float a){cout<< a;};
+void print (char a){cout<< a;};
+void print (int a, int b){cout<< a << '\n'<< b << endl;};
 
 int main()
-{
- cout<<print(6,3);
-    return 0;
-}
+   {
+    print(23,25);
+   }
+
 
